@@ -1,0 +1,10 @@
+Identification du problème:
+
+Problème initial (Screenshot 1) :
+  Symptômes observés :
+  La machine direction ne reçoit pas d'adresse IP via DHCP.
+  Les commandes ping www.google.com et ping www.woodytoys.com retournent des erreurs indiquant une défaillance de la résolution DNS (Temporary failure in name resolution).
+  Déduction :
+  Le serveur DHCP ne fonctionne pas ou n'attribue pas correctement d'adresses IP.
+  Le serveur DNS (resolver) n'est pas accessible ou mal configuré.
+  
